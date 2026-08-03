@@ -2,7 +2,8 @@ import os
 import pandas as pd
 import streamlit as st
 
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
+
 
 from langchain_community.document_loaders import PyPDFLoader
 
