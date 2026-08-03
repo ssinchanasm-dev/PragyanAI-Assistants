@@ -1,3 +1,11 @@
+import streamlit as st
+
+st.write("Starting app")
+
+import langchain_community
+
+st.write("langchain community loaded")
+
 import os
 import pandas as pd
 import streamlit as st
